@@ -1008,6 +1008,11 @@ ul.menu li:hover .sub-menu {
 
 .menu-bar .container ul.menu li ul.sub-menu li {
   display: block;
+  padding: 10px 0;
+}
+
+.menu-bar .container ul.menu li ul.sub-menu li:hover {
+  text-decoration: underline;
 }
 
 .menu-bar .container ul.menu li.active-trail > a {
