@@ -538,6 +538,10 @@ table tr td img {
   background-color: #5a647b;
 }
 
+.people-img{
+  max-width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .container .main-content .column:last-child h1 {
     font-size: 32px;
