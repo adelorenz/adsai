@@ -53,8 +53,20 @@ blockquote {
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
-  min-height: 460px;
+  min-height: 500px;
   margin-bottom: 1.1em;
+}
+
+.card:hover img {
+  opacity: 0.75;
+}
+
+.card:hover h3 {
+  opacity: 1.0;
+}
+
+.card:hover .card-body {
+  opacity: 1.0;
 }
 
 .card-img-top {
