@@ -1578,6 +1578,10 @@ dl dd {
   padding: 0;
 }
 
+.front .row {
+  margin-bottom: 5em;
+}
+
 .front .menu-bar::after {
   content: initial;
 }
@@ -1618,7 +1622,7 @@ dl dd {
   max-height: 100px;
   margin-top: 8em;
 }
-.front .fullwidth {
+#content.front {
   background-color: #eeeeee;
 }
 .front .about > .view-content {
