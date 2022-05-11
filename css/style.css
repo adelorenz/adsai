@@ -1826,7 +1826,7 @@ dl dd {
   padding: 0;
 }
 .front .region-fullwidth-top-bottom {
-  background-image: url("../images/adsai-ai-bg.png");
+  background-image: url("/img/adsai-ai-bg.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
