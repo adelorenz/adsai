@@ -53,8 +53,37 @@ blockquote {
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
-  min-height: 720px;
+  min-height: 705px;
   margin-bottom: 1.1em;
+}
+
+.card.student {
+  min-height: 500px;
+}
+
+h5.techkey, h5.appkey {
+  display: inline-block;
+  margin: 0.1em;
+}
+
+h5.techkey span.badge a {
+  color: #fff;
+}
+
+h5.appkey span.badge a {
+  color: #fff;
+}
+
+h5.techkey span.badge.badge-primary {
+  background-color: #4f586c;
+}
+
+h5.appkey span.badge.badge-primary {
+  background-color: #a61c35;
+}
+
+span.badge.badge-secondary {
+  background-color: #182540;
 }
 
 .card:hover img {
