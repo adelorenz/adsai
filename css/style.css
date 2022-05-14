@@ -1030,6 +1030,10 @@ ul.menu li:hover .sub-menu {
   display: block;
 }
 
+.nav-link i.bi.bi-caret-down-fill {
+  display: none;
+}
+
 @-webkit-keyframes mainMenuAnimation {
   from {
     top: 0;
@@ -1474,6 +1478,35 @@ dl dd {
   .menu-bar .container ul.menu {
     text-align: center;
   }
+
+  ul.menu li:hover .sub-menu {
+    display: inherit;
+  }
+
+  .nav-link i.bi.bi-caret-down-fill {
+    display: initial;
+  }
+
+  ul.menu li:hover .sub-menu {
+    display: none;
+  }
+
+ /*  .nav-link i.bi.bi-caret-down-fill:hover {
+    display: none;
+  } */
+
+  .sub-menu {
+    position: static;
+  }
+
+  .menu-bar .container ul.menu .sub-menu li {
+    background-color: #182540;
+  }
+
+  .menu-bar .container ul.menu .sub-menu li {
+    font-size: 1.0em;
+  }
+  
   
 }
 .menuBtnOpen1 {
