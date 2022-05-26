@@ -1816,13 +1816,13 @@ dl dd {
   height: 70px;
   top: 0;
   left: 0;
-  background-image: url("../images/logo-blockchain.svg");
+  background-image: url("/img/logo-blockchain.svg");
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
 }
 .front .region-fullwidth-top-center > div:first-child:after {
-  background-image: url("../images/pattern-bubbles-1.svg");
+  background-image: url("/img/pattern-bubbles-1.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -1845,13 +1845,13 @@ dl dd {
   height: 70px;
   top: 0;
   left: 0;
-  background-image: url("../images/logo-medicine.svg");
+  background-image: url("/img/logo-medicine.svg");
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
 }
 .front .region-fullwidth-top-center > div:nth-child(2):after {
-  background-image: url("../images/pattern-bubbles-2.svg");
+  background-image: url("/img/pattern-bubbles-2.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -1874,13 +1874,13 @@ dl dd {
   height: 70px;
   top: 0;
   left: 0;
-  background-image: url("../images/logo-economy.svg");
+  background-image: url("/img/logo-economy.svg");
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
 }
 .front .region-fullwidth-top-center > div:last-child:after {
-  background-image: url("../images/pattern-bubbles-3.svg");
+  background-image: url("/img/pattern-bubbles-3.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
