@@ -114,6 +114,10 @@ span.badge.badge-secondary {
   padding: 1.25rem;
 }
 
+div.card i.bi, div.field-item i.bi {
+  margin-right: 0.3em;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
